@@ -1,5 +1,5 @@
 import { Accessor, Component, onMount } from 'solid-js';
-import init, { FolioClient } from '@greym0uth/playground';
+import { FolioClient } from '@greym0uth/playground';
 
 declare module 'solid-js' {
   namespace JSX {
@@ -27,17 +27,15 @@ function createPlayground() {
   const playground = (ref: HTMLCanvasElement, accessor: Accessor<number>) => {
     canvas = ref;
 
-    init().then(() => {
-      const gl = canvas.getContext('webgl');
-      const client = new FolioClient(gl!, accessor());
+    const gl = canvas.getContext('webgl');
+    const client = new FolioClient(gl!, accessor());
 
-      const render = () => {
+    const render = () => {
         client.update();
         client.render();
         requestAnimationFrame(render);
-      };
-      requestAnimationFrame(render);
-    });
+    };
+    requestAnimationFrame(render);
   };
 
   return playground;
