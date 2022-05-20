@@ -10,7 +10,10 @@ importers:
 
   packages/playground:
     specifiers:
+      '@greym0uth/playground': ^1.0.0
       wasm-pack: ^0.10.2
+    dependencies:
+      '@greym0uth/playground': 1.0.0
     devDependencies:
       wasm-pack: 0.10.2
 
@@ -360,6 +363,10 @@ packages:
 
   /@fontsource/roboto-flex/4.5.0:
     resolution: {integrity: sha512-4w944UkhoO+8rc/bJiSi0KLWWVfCcWGLtgjm6wsyQmSxn25zpJ6qBgSEqANin/R8k0Aou2n6R9nQTlhFOsvMkQ==}
+    dev: false
+
+  /@greym0uth/playground/1.0.0:
+    resolution: {integrity: sha512-xqraP+AqqGbhPcXNL46Z9Ef8AbaZ4eZS1jHLV/KKjl6hAGWwLEKxP5LHwmKZbK1FRbKYRCHLfZgj2+5P0olyYA==, tarball: download/@greym0uth/playground/1.0.0/d5cd814ed7ccab01435384a8bf7fa1b9c402c1c1dd28c5b64db91f87c300fa72}
     dev: false
 
   /@jridgewell/gen-mapping/0.1.1:

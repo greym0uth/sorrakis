@@ -24,5 +24,8 @@
   },
   "devDependencies": {
     "wasm-pack": "^0.10.2"
+  },
+  "dependencies": {
+    "@greym0uth/playground": "^1.0.0"
   }
 }
