@@ -1,0 +1,20 @@
+{
+  "name": "@sorrakis/webgl",
+  "description": "description",
+  "version": "1.0.0",
+  "contributors": [
+    "Jaden Giordano <thejadenjack@gmail.com>",
+    "Aidan Chelig <icyhate@gmail.com>"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "wasm-pack build --target web"
+  },
+  "main": "pkg/webgl.js",
+  "files": [
+    "pkg/*"
+  ],
+  "devDependencies": {
+    "wasm-pack": "^0.10.2"
+  }
+}

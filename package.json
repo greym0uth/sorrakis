@@ -1,0 +1,14 @@
+{
+  "name": "sorakkis",
+  "version": "1.0.0",
+  "description": "Portfolio website",
+  "private": true,
+  "author": "greym0uth & icyhate",
+  "license": "MIT",
+  "scripts": {
+    "prettier": "prettier --write ."
+  },
+  "dependencies": {
+    "prettier": "^2.6.2"
+  }
+}

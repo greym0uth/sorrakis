@@ -1,0 +1,76 @@
+[19:06:37.371] Global cache location '/Users/grey/Library/Caches/typescript/4.6', safe file path '/users/grey/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typingsafelist.json', types map path /users/grey/.emacs.d/.local/etc/lsp/npm/typescript/lib/node_modules/typescript/lib/typesmap.json
+[19:06:37.372] Processing cache location '/Users/grey/Library/Caches/typescript/4.6'
+[19:06:37.372] Trying to find '/Users/grey/Library/Caches/typescript/4.6/package.json'...
+[19:06:37.373] Loaded content of '/Users/grey/Library/Caches/typescript/4.6/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.593"},"devDependencies":{"@types/atob":"^2.1.2","@types/babel__core":"^7.1.19","@types/babel__preset-env":"^7.9.2","@types/bcrypt":"^5.0.0","@types/big.js":"^6.1.3","@types/brace-expansion":"^1.1.0","@types/compression":"^1.7.2","@types/cookie":"^0.5.0","@types/cookie-parser":"^1.4.2","@types/cors":"^2.8.12","@types/d":"^1.0.1","@types/dot":"^1.1.5","@types/eslint":"^8.4.2","@types/eslint-config-prettier":"^6.11.0","@types/eslint-plugin-prettier":"^3.1.0","@types/express":"^4.17.13","@types/express-session":"^1.17.4","@types/glob":"^7.2.0","@types/hpp":"^0.2.2","@types/inherits":"^0.0.30","@types/js-cookie":"^3.0.1","@types/jsonwebtoken":"^8.5.8","@types/loader-utils":"^2.0.3","@types/lodash":"^4.14.181","@types/lodash.castarray":"^4.4.7","@types/lodash.merge":"^4.6.7","@types/luxon":"^2.3.1","@types/mdx-js__react":"^1.5.5","@types/minimatch":"^3.0.5","@types/morgan":"^1.9.3","@types/nodemailer":"^6.4.4","@types/nodemon":"^1.19.1","@types/nprogress":"^0.2.0","@types/once":"^1.4.0","@types/passport":"^1.0.7","@types/passport-steam":"^1.0.1","@types/path-is-absolute":"^1.0.0","@types/pino-pretty":"^4.7.4","@types/pino-std-serializers":"^2.4.1","@types/postcss-import":"^14.0.0","@types/prettier":"^2.6.1","@types/react":"^18.0.9","@types/react-dom":"^18.0.3","@types/react-transition-group":"^4.4.4","@types/rimraf":"^3.0.2","@types/semver":"^7.3.9","@types/send":"^0.17.1","@types/supertest":"^2.0.12","@types/svgo":"^2.6.3","@types/tailwindcss":"^3.0.10","@types/validator":"^13.7.2","@types/webpack-bundle-analyzer":"^4.4.1","@types/ws":"^8.5.3","@types/yup":"^0.29.13"}}
+[19:06:37.373] Loaded content of '/Users/grey/Library/Caches/typescript/4.6/package-lock.json'
+[19:06:37.378] Adding entry into typings cache: 'atob' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/atob/index.d.ts'
+[19:06:37.379] Adding entry into typings cache: 'babel__core' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/babel__core/index.d.ts'
+[19:06:37.380] Adding entry into typings cache: 'babel__preset-env' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/babel__preset-env/index.d.ts'
+[19:06:37.380] Adding entry into typings cache: 'bcrypt' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/bcrypt/index.d.ts'
+[19:06:37.381] Adding entry into typings cache: 'big.js' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/big.js/index.d.ts'
+[19:06:37.381] Adding entry into typings cache: 'brace-expansion' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/brace-expansion/index.d.ts'
+[19:06:37.382] Adding entry into typings cache: 'compression' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/compression/index.d.ts'
+[19:06:37.382] Adding entry into typings cache: 'cookie' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/cookie/index.d.ts'
+[19:06:37.383] Adding entry into typings cache: 'cookie-parser' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/cookie-parser/index.d.ts'
+[19:06:37.383] Adding entry into typings cache: 'cors' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/cors/index.d.ts'
+[19:06:37.384] Adding entry into typings cache: 'd' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/d/index.d.ts'
+[19:06:37.385] Adding entry into typings cache: 'dot' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/dot/index.d.ts'
+[19:06:37.385] Adding entry into typings cache: 'eslint' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/eslint/index.d.ts'
+[19:06:37.386] Adding entry into typings cache: 'eslint-config-prettier' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/eslint-config-prettier/index.d.ts'
+[19:06:37.386] Adding entry into typings cache: 'eslint-plugin-prettier' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/eslint-plugin-prettier/index.d.ts'
+[19:06:37.387] Adding entry into typings cache: 'express' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/express/index.d.ts'
+[19:06:37.388] Adding entry into typings cache: 'express-session' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/express-session/index.d.ts'
+[19:06:37.388] Adding entry into typings cache: 'glob' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/glob/index.d.ts'
+[19:06:37.389] Adding entry into typings cache: 'hpp' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/hpp/index.d.ts'
+[19:06:37.389] Adding entry into typings cache: 'inherits' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/inherits/index.d.ts'
+[19:06:37.390] Adding entry into typings cache: 'js-cookie' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/js-cookie/index.d.ts'
+[19:06:37.390] Adding entry into typings cache: 'jsonwebtoken' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/jsonwebtoken/index.d.ts'
+[19:06:37.390] Adding entry into typings cache: 'loader-utils' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/loader-utils/index.d.ts'
+[19:06:37.391] Adding entry into typings cache: 'lodash' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/lodash/index.d.ts'
+[19:06:37.391] Adding entry into typings cache: 'lodash.castarray' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/lodash.castarray/index.d.ts'
+[19:06:37.391] Adding entry into typings cache: 'lodash.merge' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/lodash.merge/index.d.ts'
+[19:06:37.392] Adding entry into typings cache: 'luxon' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/luxon/index.d.ts'
+[19:06:37.392] Adding entry into typings cache: 'mdx-js__react' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/mdx-js__react/index.d.ts'
+[19:06:37.392] Adding entry into typings cache: 'minimatch' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/minimatch/index.d.ts'
+[19:06:37.393] Adding entry into typings cache: 'morgan' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/morgan/index.d.ts'
+[19:06:37.393] Adding entry into typings cache: 'nodemailer' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/nodemailer/index.d.ts'
+[19:06:37.393] Adding entry into typings cache: 'nodemon' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/nodemon/index.d.ts'
+[19:06:37.393] Adding entry into typings cache: 'nprogress' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/nprogress/index.d.ts'
+[19:06:37.394] Adding entry into typings cache: 'once' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/once/index.d.ts'
+[19:06:37.394] Adding entry into typings cache: 'passport' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/passport/index.d.ts'
+[19:06:37.394] Adding entry into typings cache: 'passport-steam' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/passport-steam/index.d.ts'
+[19:06:37.394] Adding entry into typings cache: 'path-is-absolute' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/path-is-absolute/index.d.ts'
+[19:06:37.395] Adding entry into typings cache: 'pino-pretty' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/pino-pretty/index.d.ts'
+[19:06:37.395] Adding entry into typings cache: 'pino-std-serializers' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/pino-std-serializers/index.d.ts'
+[19:06:37.395] Adding entry into typings cache: 'postcss-import' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/postcss-import/index.d.ts'
+[19:06:37.395] Adding entry into typings cache: 'prettier' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/prettier/index.d.ts'
+[19:06:37.396] Adding entry into typings cache: 'react' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/react/index.d.ts'
+[19:06:37.397] Adding entry into typings cache: 'react-dom' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/react-dom/index.d.ts'
+[19:06:37.397] Adding entry into typings cache: 'react-transition-group' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/react-transition-group/index.d.ts'
+[19:06:37.397] Adding entry into typings cache: 'rimraf' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/rimraf/index.d.ts'
+[19:06:37.398] Adding entry into typings cache: 'semver' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/semver/index.d.ts'
+[19:06:37.398] Adding entry into typings cache: 'send' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/send/index.d.ts'
+[19:06:37.398] Adding entry into typings cache: 'supertest' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/supertest/index.d.ts'
+[19:06:37.399] Adding entry into typings cache: 'svgo' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/svgo/index.d.ts'
+[19:06:37.399] Adding entry into typings cache: 'tailwindcss' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/tailwindcss/index.d.ts'
+[19:06:37.400] Adding entry into typings cache: 'validator' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/validator/index.d.ts'
+[19:06:37.400] Adding entry into typings cache: 'webpack-bundle-analyzer' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/webpack-bundle-analyzer/index.d.ts'
+[19:06:37.401] Adding entry into typings cache: 'ws' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/ws/index.d.ts'
+[19:06:37.401] Adding entry into typings cache: 'yup' => '/Users/grey/Library/Caches/typescript/4.6/node_modules/@types/yup/index.d.ts'
+[19:06:37.401] Finished processing cache location '/Users/grey/Library/Caches/typescript/4.6'
+[19:06:37.401] Process id: 7203
+[19:06:37.401] NPM location: "/Users/grey/Library/Application Support/fnm/node-versions/v16.14.2/installation/bin/npm" (explicit '--npmLocation' not  provided)
+[19:06:37.401] validateDefaultNpmLocation: false
+[19:06:37.402] Npm config file: /Users/grey/Library/Caches/typescript/4.6/package.json
+[19:06:37.402] Updating types-registry npm package...
+[19:06:37.402] Exec: "/Users/grey/Library/Application Support/fnm/node-versions/v16.14.2/installation/bin/npm" install --ignore-scripts types-registry@latest
+[19:06:37.924]     Succeeded. stdout:
+    
+    up to date, audited 160 packages in 420ms
+
+10 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[19:06:37.924] Updated types-registry npm package
