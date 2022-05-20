@@ -6,6 +6,11 @@
     "Jaden Giordano <thejadenjack@gmail.com>",
     "Aidan Chelig <icyhate@gmail.com>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:greym0uth/sorrakis.git",
+    "directory": "packages/playground"
+  },
   "license": "MIT",
   "scripts": {
     "build": "wasm-pack build --target web"
