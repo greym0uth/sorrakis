@@ -21,7 +21,7 @@ importers:
     specifiers:
       '@fontsource/fredoka': ^4.5.5
       '@fontsource/roboto-flex': ^4.5.0
-      '@greym0uth/playground': ^1.0.0
+      '@greym0uth/playground': ^1.0.1
       '@tailwindcss/typography': ^0.5.2
       autoprefixer: ^10.4.7
       postcss: ^8.4.14
@@ -34,7 +34,7 @@ importers:
       vite-plugin-wasm: ^0.0.2
     dependencies:
       '@fontsource/roboto-flex': 4.5.0
-      '@greym0uth/playground': 1.0.0
+      '@greym0uth/playground': 1.0.1
       solid-js: 1.4.2
     devDependencies:
       '@fontsource/fredoka': 4.5.5
@@ -368,6 +368,10 @@ packages:
     resolution: {integrity: sha512-xqraP+AqqGbhPcXNL46Z9Ef8AbaZ4eZS1jHLV/KKjl6hAGWwLEKxP5LHwmKZbK1FRbKYRCHLfZgj2+5P0olyYA==, tarball: download/@greym0uth/playground/1.0.0/d5cd814ed7ccab01435384a8bf7fa1b9c402c1c1dd28c5b64db91f87c300fa72}
     dev: false
 
+  /@greym0uth/playground/1.0.1:
+    resolution: {integrity: sha512-BozKqxbguCxmdo+jF/UKnMw7HPpcJcSpmVwf/mA2Fl9tGP6dM3Jfy6a/9hXabAFjgZY7BlXgGz+m1xJmA0nL6A==, tarball: download/@greym0uth/playground/1.0.1/812dc00db60cd053d7d59ea64544bb6354d6529de248e2fed1dae60503ce40ec}
+    dev: false
+
   /@jridgewell/gen-mapping/0.1.1:
     resolution: {integrity: sha512-sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w==}
     engines: {node: '>=6.0.0'}
@@ -478,6 +482,7 @@ packages:
   /autoprefixer/10.4.7_postcss@8.4.14:
     resolution: {integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==}
     engines: {node: ^10 || ^12 || >=14}
+    hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
@@ -1418,6 +1423,7 @@ packages:
   /vite/2.9.9:
     resolution: {integrity: sha512-ffaam+NgHfbEmfw/Vuh6BHKKlI/XIAhxE5QSS7gFLIngxg171mg1P3a4LSRME0z2ZU1ScxoKzphkipcYwSD5Ew==}
     engines: {node: '>=12.2.0'}
+    hasBin: true
     peerDependencies:
       less: '*'
       sass: '*'
