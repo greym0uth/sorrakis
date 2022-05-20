@@ -1,5 +1,5 @@
 {
-  "name": "@sorrakis/webgl",
+  "name": "@greym0uth/playground",
   "description": "description",
   "version": "1.0.0",
   "contributors": [
@@ -10,7 +10,7 @@
   "scripts": {
     "build": "wasm-pack build --target web"
   },
-  "main": "pkg/webgl.js",
+  "main": "pkg/playground.js",
   "files": [
     "pkg/*"
   ],

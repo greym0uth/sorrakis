@@ -1,5 +1,5 @@
 import { Accessor, Component, onMount } from 'solid-js';
-import init, { FolioClient } from '@sorrakis/webgl';
+import init, { FolioClient } from '@greym0uth/playground';
 
 declare module 'solid-js' {
   namespace JSX {

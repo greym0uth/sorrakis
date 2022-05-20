@@ -8,11 +8,17 @@ importers:
     dependencies:
       prettier: 2.6.2
 
+  packages/playground:
+    specifiers:
+      wasm-pack: ^0.10.2
+    devDependencies:
+      wasm-pack: 0.10.2
+
   packages/web:
     specifiers:
       '@fontsource/fredoka': ^4.5.5
       '@fontsource/roboto-flex': ^4.5.0
-      '@sorrakis/webgl': workspace:^1.0.0
+      '@greym0uth/playground': ^1.0.0
       '@tailwindcss/typography': ^0.5.2
       autoprefixer: ^10.4.7
       postcss: ^8.4.14
@@ -25,7 +31,7 @@ importers:
       vite-plugin-wasm-pack: ^0.1.12
     dependencies:
       '@fontsource/roboto-flex': 4.5.0
-      '@sorrakis/webgl': link:../webgl
+      '@greym0uth/playground': link:../playground
       solid-js: 1.4.2
     devDependencies:
       '@fontsource/fredoka': 4.5.5
@@ -38,12 +44,6 @@ importers:
       vite: 2.9.9
       vite-plugin-solid: 2.2.6
       vite-plugin-wasm-pack: 0.1.12
-
-  packages/webgl:
-    specifiers:
-      wasm-pack: ^0.10.2
-    devDependencies:
-      wasm-pack: 0.10.2
 
 packages:
 
