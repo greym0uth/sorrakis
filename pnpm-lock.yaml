@@ -31,8 +31,7 @@ importers:
       typescript: ^4.6.3
       vite: ^2.8.6
       vite-plugin-solid: ^2.2.6
-      vite-plugin-wasm: ^0.0.2
-      vite-plugin-wasm-pack: https://github.com/greym0uth/vite-plugin-wasm-pack/archive/refs/tags/0.1.13.tar.gz
+      vite-plugin-wasm-pack: https://github.com/greym0uth/vite-plugin-wasm-pack/releases/download/0.1.13/vite-plugin-wasm-pack-0.1.13.tgz
     dependencies:
       '@fontsource/roboto-flex': 4.5.0
       '@greym0uth/playground': 1.0.0
@@ -47,8 +46,7 @@ importers:
       typescript: 4.6.4
       vite: 2.9.9
       vite-plugin-solid: 2.2.6
-      vite-plugin-wasm: 0.0.2_vite@2.9.9
-      vite-plugin-wasm-pack: '@github.com/greym0uth/vite-plugin-wasm-pack/archive/refs/tags/0.1.13.tar.gz'
+      vite-plugin-wasm-pack: '@github.com/greym0uth/vite-plugin-wasm-pack/releases/download/0.1.13/vite-plugin-wasm-pack-0.1.13.tgz'
 
 packages:
 
@@ -487,6 +485,7 @@ packages:
   /autoprefixer/10.4.7_postcss@8.4.14:
     resolution: {integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==}
     engines: {node: ^10 || ^12 || >=14}
+    hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
@@ -1473,17 +1472,10 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-wasm/0.0.2_vite@2.9.9:
-    resolution: {integrity: sha512-tZmwp8Mj7RhicenZeDYw9VXbuT+9u85FFiBIvNbdbhiF1cDJqdV44P1ia8a1nGCbN+Dz4Aq+t6fun1eUs3EJ6Q==}
-    peerDependencies:
-      vite: ^2.8
-    dependencies:
-      vite: 2.9.9
-    dev: true
-
   /vite/2.9.9:
     resolution: {integrity: sha512-ffaam+NgHfbEmfw/Vuh6BHKKlI/XIAhxE5QSS7gFLIngxg171mg1P3a4LSRME0z2ZU1ScxoKzphkipcYwSD5Ew==}
     engines: {node: '>=12.2.0'}
+    hasBin: true
     peerDependencies:
       less: '*'
       sass: '*'
@@ -1531,10 +1523,10 @@ packages:
     engines: {node: '>= 6'}
     dev: true
 
-  '@github.com/greym0uth/vite-plugin-wasm-pack/archive/refs/tags/0.1.13.tar.gz':
-    resolution: {tarball: https://github.com/greym0uth/vite-plugin-wasm-pack/archive/refs/tags/0.1.13.tar.gz}
+  '@github.com/greym0uth/vite-plugin-wasm-pack/releases/download/0.1.13/vite-plugin-wasm-pack-0.1.13.tgz':
+    resolution: {tarball: https://github.com/greym0uth/vite-plugin-wasm-pack/releases/download/0.1.13/vite-plugin-wasm-pack-0.1.13.tgz}
     name: vite-plugin-wasm-pack
-    version: 0.1.12
+    version: 0.1.13
     dependencies:
       chalk: 4.1.2
       fs-extra: 10.1.0
