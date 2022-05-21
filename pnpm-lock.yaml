@@ -48,7 +48,7 @@ importers:
       vite: 2.9.9
       vite-plugin-solid: 2.2.6
       vite-plugin-wasm: 0.0.2_vite@2.9.9
-      vite-plugin-wasm-pack: 0.1.12
+      vite-plugin-wasm-pack: '@github.com/greym0uth/vite-plugin-wasm-pack/archive/refs/tags/0.1.13.tar.gz'
 
 packages:
 
@@ -487,7 +487,6 @@ packages:
   /autoprefixer/10.4.7_postcss@8.4.14:
     resolution: {integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==}
     engines: {node: ^10 || ^12 || >=14}
-    hasBin: true
     peerDependencies:
       postcss: ^8.1.0
     dependencies:
@@ -1474,14 +1473,6 @@ packages:
       - supports-color
     dev: true
 
-  /vite-plugin-wasm-pack/0.1.12:
-    resolution: {integrity: sha512-WliYvQp9HXluir4OKGbngkcKxtYtifU11cqLurRRJGsl770Sjr1iIkp5RuvU3IC1poT4A57Z2/YgAKI2Skm7ZA==}
-    dependencies:
-      chalk: 4.1.2
-      fs-extra: 10.1.0
-      narrowing: 1.4.0
-    dev: true
-
   /vite-plugin-wasm/0.0.2_vite@2.9.9:
     resolution: {integrity: sha512-tZmwp8Mj7RhicenZeDYw9VXbuT+9u85FFiBIvNbdbhiF1cDJqdV44P1ia8a1nGCbN+Dz4Aq+t6fun1eUs3EJ6Q==}
     peerDependencies:
@@ -1493,7 +1484,6 @@ packages:
   /vite/2.9.9:
     resolution: {integrity: sha512-ffaam+NgHfbEmfw/Vuh6BHKKlI/XIAhxE5QSS7gFLIngxg171mg1P3a4LSRME0z2ZU1ScxoKzphkipcYwSD5Ew==}
     engines: {node: '>=12.2.0'}
-    hasBin: true
     peerDependencies:
       less: '*'
       sass: '*'
@@ -1539,4 +1529,14 @@ packages:
   /yaml/1.10.2:
     resolution: {integrity: sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==}
     engines: {node: '>= 6'}
+    dev: true
+
+  '@github.com/greym0uth/vite-plugin-wasm-pack/archive/refs/tags/0.1.13.tar.gz':
+    resolution: {tarball: https://github.com/greym0uth/vite-plugin-wasm-pack/archive/refs/tags/0.1.13.tar.gz}
+    name: vite-plugin-wasm-pack
+    version: 0.1.12
+    dependencies:
+      chalk: 4.1.2
+      fs-extra: 10.1.0
+      narrowing: 1.4.0
     dev: true
