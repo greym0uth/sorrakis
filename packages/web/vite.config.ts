@@ -1,9 +1,9 @@
 import { defineConfig } from 'vite';
 import solidPlugin from 'vite-plugin-solid';
-import wasm from 'vite-plugin-wasm';
+import wasmPack from 'vite-plugin-wasm-pack';
 
 export default defineConfig({
-  plugins: [solidPlugin(), wasm()],
+  plugins: [solidPlugin(), wasmPack([], ['@greym0uth/playground'])],
   build: {
     target: 'esnext',
     polyfillDynamicImport: false,

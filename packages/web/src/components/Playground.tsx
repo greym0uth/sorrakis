@@ -1,5 +1,5 @@
-import { Accessor, Component, onMount } from 'solid-js';
-import { FolioClient } from '@greym0uth/playground';
+import { Accessor, Component, createSignal, onMount } from 'solid-js';
+import init, { FolioClient } from '@greym0uth/playground';
 
 declare module 'solid-js' {
   namespace JSX {
@@ -27,15 +27,17 @@ function createPlayground() {
   const playground = (ref: HTMLCanvasElement, accessor: Accessor<number>) => {
     canvas = ref;
 
-    const gl = canvas.getContext('webgl');
-    const client = new FolioClient(gl!, accessor());
+    init().then(() => {
+      const gl = canvas.getContext('webgl');
+      const client = new FolioClient(gl!, accessor());
 
-    const render = () => {
-        client.update();
-        client.render();
-        requestAnimationFrame(render);
-    };
-    requestAnimationFrame(render);
+      const render = () => {
+          client.update();
+          client.render();
+          requestAnimationFrame(render);
+      };
+      requestAnimationFrame(render);
+    });
   };
 
   return playground;
@@ -46,7 +48,7 @@ const Playground: Component = () => {
 
   return (
     <div class="w-full h-full box-border">
-      <canvas use:playground={2} width="100%" height="100%" />
+      <canvas use:playground={Math.round(Math.random() * 3) % 3} width="100%" height="100%" />
     </div>
   );
 };

@@ -1,7 +1,7 @@
 {
   "name": "@greym0uth/playground",
   "description": "description",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "contributors": [
     "Jaden Giordano <thejadenjack@gmail.com>",
     "Aidan Chelig <icyhate@gmail.com>"
@@ -13,7 +13,7 @@
   },
   "license": "MIT",
   "scripts": {
-    "build": "wasm-pack build"
+    "build": "wasm-pack build --target web"
   },
   "main": "pkg/playground.js",
   "files": [
